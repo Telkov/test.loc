@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+RewriteRule ^(.*)$ index.php [L,QSA]
+# ^ - Начало строки, $ - конец строки, . - любой символ, * - любое количество раз. 
